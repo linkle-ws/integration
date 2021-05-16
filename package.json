@@ -1,8 +1,9 @@
 {
   "name": "linkle-ws",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "Web service de integração com o sistema da Linkle",
   "main": "src/index.js",
+  "module": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +26,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "esm": "^3.2.25"
-  }
+  },
+  "devDependencies": {}
 }
